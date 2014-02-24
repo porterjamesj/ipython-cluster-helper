@@ -63,7 +63,7 @@ DEFAULT_MEM_PER_CPU = 1000  # Mb
 # from controller.
 # Makes engine pingback shutdown higher, since this is
 # not consecutive misses.
-timeout_params = ["--timeout=60", "--IPEngineApp.wait_for_url_file=960",
+timeout_params = ["--timeout=1200", "--IPEngineApp.wait_for_url_file=960",
                   "--EngineFactory.max_heartbeat_misses=100"]
 controller_params = ["--nodb", "--hwm=1", "--scheme=lru",
                      "--HeartMonitor.max_heartmonitor_misses=12",
